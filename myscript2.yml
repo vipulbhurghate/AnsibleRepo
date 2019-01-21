@@ -2,7 +2,7 @@
 
    - hosts: localhost
      tasks:
-      - name: copy file from one path to another path as per requirement to test-200
+      - name: copy file from one path to another path as per requirement to test-201
         copy: src=/home/vipul/sourcelocation/mytest.txt dest=/home/vipul/destinationlocation/
 
 
